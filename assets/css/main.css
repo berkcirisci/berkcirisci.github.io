@@ -2235,6 +2235,7 @@ input, select, textarea {
 			}
 
 				#top .image {
+					height: 30em;
 					margin: 0 auto 2em auto;
 				}
 
@@ -2370,6 +2371,13 @@ input, select, textarea {
 					width: auto;
 				}
 
+				.box.style0 {
+					max-height: 3em;
+					max-width: 32em;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+
 				.box.style1 {
 					max-width: 32em;
 					margin-left: auto !important;
@@ -2377,6 +2385,12 @@ input, select, textarea {
 				}
 
 				.box.style2 {
+					max-width: 32em;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+
+				.box.style4 {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
@@ -2392,7 +2406,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				height: 44px;
+				height: 88px;
 				line-height: 44px;
 			}
 
@@ -2415,7 +2429,7 @@ input, select, textarea {
 
 				#top .image {
 					width: 15em;
-					height: 15em;
+					height: 20em;
 					margin-bottom: 0;
 				}
 
